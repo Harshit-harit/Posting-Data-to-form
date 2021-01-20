@@ -38,7 +38,7 @@ import {useFormik} from 'formik';
                         'Accept':'application/json',
                         'Content-type':'application/json',},
                     body: JSON.stringify({
-                        key1: 'myusername'})
+                        key1: 'name'})
         })
 
         console.log('Result:'+result)
@@ -54,7 +54,7 @@ import {useFormik} from 'formik';
     
         render() {
              return (
-                  <form>
+                  <form >
                          <label htmlFor='name'>Name </label>
                          <input type='text' id='name' name='name'/>
                          <br/>
